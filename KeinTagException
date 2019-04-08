@@ -1,0 +1,3 @@
+public class KeinTagException extends Exception {
+ 
+}
