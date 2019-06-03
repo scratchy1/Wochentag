@@ -1,0 +1,10 @@
+public class EWochentag2Test {
+
+    public static void main(String[] args) {
+
+        System.out.println(EWochentag2.Sonntag.naechsterTag());
+        System.out.println(EWochentag2.Montag.vorigerTag());
+        
+    }
+
+}
