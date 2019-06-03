@@ -1,0 +1,15 @@
+enum EWochentag2 {
+    Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag;
+
+    public EWochentag2 naechsterTag() {
+        int i = (this.ordinal() + 1) % 7;
+        return EWochentag2.values()[i];
+    }
+
+    public EWochentag2 vorigerTag() {
+        int j = (this.ordinal() + 6) % 7;
+
+        return EWochentag2.values()[j];
+    }
+
+}
